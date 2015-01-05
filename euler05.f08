@@ -6,7 +6,6 @@ program euler05
   integer :: i
   integer :: j
   integer :: current_number
-  integer :: temp
   integer :: mult
 
   do i=1, maximum

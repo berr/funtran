@@ -1,7 +1,6 @@
 program euler04
   implicit none
   
-  integer :: number
   integer :: i
   integer :: j
   integer :: mult
@@ -54,7 +53,7 @@ contains
   integer function places(number)
     integer, intent(in) :: number
     
-    places = aint(log10(real(number))) + 1
+    places = int(log10(real(number))) + 1
       
   end function places
 
